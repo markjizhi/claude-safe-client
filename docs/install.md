@@ -53,6 +53,8 @@
 
 **以 IPFLY 为例：**登录 [IPFLY 控制台](https://console.ipfly.net/)，在自己的 IP 管理页面找到对应的 SOCKS5 配置，再对照授权页面中的字段逐项填写。其他服务商按其提供的配置填写即可。
 
+![代理服务商控制台的字段示例](images/05-proxy-provider.png)
+
 **步骤 3：核对并进入客户端**  
 检查授权信息和代理配置，确认无误后点击**「校验并进入客户端」**。下图为填写位置示意，实际内容请填写你自己的信息。
 
@@ -68,15 +70,21 @@
 
 **IP 类型和评分仅供参考，不能代替代理验收。**
 
+![启动运行环境的按钮和状态](images/07-runtime.png)
+
 ## 4. 通过工具打开 Claude
 
 使用桌面端，点击**「Claude 客户端」**；使用网页端，点击**「Google Chrome」**或**「Microsoft Edge」**。在工具打开的窗口中登录自己的 Claude 账号即可。
+
+![打开 Claude 桌面端、网页端和 Claude Code 的入口](images/08-launchers.png)
 
 **以后也从小工具打开 Claude。**不要另外从 Dock、Spotlight 或普通浏览器进入 Claude。
 
 ## 5. 使用 Claude Code（按需）
 
 需要使用 Claude Code 时，先点击**「修改目录」**，选择自己的项目文件夹。确认「挂载目录」正确后，再点击上方**「Claude Code」**。
+
+![为 Claude Code 选择项目目录的位置](images/09-claude-code.png)
 
 ## 6. 遇到问题，怎么向 Codex 求助
 
