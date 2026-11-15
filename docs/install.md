@@ -2,9 +2,15 @@
 
 本工具仅对内部群友免费。[了解内部群](https://mp.weixin.qq.com/s/qX80eU7RSrndeBHEJtOZvg)。内部群友私信极致先生，获取工具验证码。
 
+**使用风险说明**
+
+本工具用于配置本地环境和启动 Claude，无法保证 Claude 账号安全或持续可用。截至目前，我、团队成员和已经使用的内部群友都能正常使用。
+
 主流程：**打开工具 → 填写信息 → 启动环境 → 从工具打开 Claude。**Claude Code 按需使用；自启设置和 Codex 检查统一放在文末，作为首次配置的收尾步骤。
 
-开始前，请[下载 Mac 版](https://github.com/markjizhi/claude-safe-client/releases/latest/download/Claude-Safe-Client-macOS.zip)，安装并启动 [Docker Desktop](https://www.docker.com/products/docker-desktop/)。准备好自己的 Claude 账号、工具验证码和静态 IP 服务商提供的 SOCKS5 配置。静态 IP 代理由用户自备，建议选择评分在 **70 分以上**的出口。[测试静态 IP 评分](https://ip.net.coffee/claude/)
+开始前，请[下载 Mac 版](https://github.com/markjizhi/claude-safe-client/releases/latest/download/Claude-Safe-Client-macOS.zip)，安装并启动 [Docker Desktop](https://www.docker.com/products/docker-desktop/)。准备好自己的 Claude 账号和工具验证码。
+
+网络方面，无需自行搭建 VPS。电脑需已有可用的网络代理，并自备一个支持 SOCKS5 的静态 IP 代理。建议选择评分在 **70 分以上**的出口。[测试静态 IP 评分](https://ip.net.coffee/claude/)
 
 ## 1. 首次打开工具
 
