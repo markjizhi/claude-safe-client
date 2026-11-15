@@ -122,7 +122,7 @@
 
 ## 8. 让 Codex 帮你完成收尾检查
 
-打开 [Codex 收尾检查文档](codex-check.md) 并下载原文件。把文档和 Claude 安全客户端一起拖进 Codex，再复制并发送下面这段话。
+点击[下载 Codex 收尾检查文档](https://github.com/markjizhi/claude-safe-client/releases/download/v0.2.5/codex-check.md)。把下载的文档和 Claude 安全客户端一起拖进 Codex，再复制并发送下面这段话。
 
 ~~~text
 请按这份文档帮我完成首次配置的收尾检查。帮我关闭 Claude 的登录自启，检查 Mac 重新登录时恢复窗口的设置，并确认代理连接正常。
