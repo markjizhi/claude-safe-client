@@ -4,7 +4,7 @@
 
 主流程：**打开工具 → 填写信息 → 启动环境 → 从工具打开 Claude。**Claude Code 按需使用；自启设置和 Codex 检查统一放在文末，作为首次配置的收尾步骤。
 
-开始前，请[下载 Mac 版](https://github.com/markjizhi/claude-safe-client/releases/latest/download/Claude-Safe-Client-macOS.zip)，安装并启动 [Docker Desktop](https://www.docker.com/products/docker-desktop/)。准备好自己的 Claude 账号、工具验证码和静态 IP 服务商提供的 SOCKS5 配置。静态 IP 代理由用户自备。
+开始前，请[下载 Mac 版](https://github.com/markjizhi/claude-safe-client/releases/latest/download/Claude-Safe-Client-macOS.zip)，安装并启动 [Docker Desktop](https://www.docker.com/products/docker-desktop/)。准备好自己的 Claude 账号、工具验证码和静态 IP 服务商提供的 SOCKS5 配置。静态 IP 代理由用户自备，建议选择评分在 **70 分以上**的出口。[测试静态 IP 评分](https://ip.net.coffee/claude/)
 
 ## 1. 首次打开工具
 
