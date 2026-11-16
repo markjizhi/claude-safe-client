@@ -14,7 +14,7 @@
 
 - 本机已经装有客户端时，先检查版本和状态。已有版本可以使用就直接打开，保留原有配置。发现需要替换现有版本时，先确认用户是否希望升级。
 - 从项目的 GitHub 发布页下载最新版 Mac ZIP。用 `unzip -t` 检查 ZIP，解压到临时目录，确认应用名称为「Claude安全客户端.app」，用 `codesign --verify --deep --strict` 检查签名完整性，再安装到「应用程序」并打开。[下载最新版 Mac 客户端](https://github.com/markjizhi/claude-safe-client/releases/latest/download/Claude-Safe-Client-macOS.zip)
-- 如果 macOS 弹出首次打开的安全提示，告诉用户现在卡在哪个窗口，请用户在本机确认后继续操作。手动打开的步骤见[安装教程](https://github.com/markjizhi/claude-safe-client/blob/main/docs/install.md)。
+- 如果 macOS 弹出首次打开的安全提示，告诉用户现在卡在哪个窗口，请用户在本机确认后继续操作。手动打开的步骤见[手动安装教程](https://github.com/markjizhi/claude-safe-client/blob/main/docs/install-manual.md#1-首次打开工具)。
 
 ## 3. 帮用户配置已有的静态 IP
 
