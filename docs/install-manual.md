@@ -22,6 +22,28 @@
 
 ![Claude 安全助手的应用图标](images/02-open-app.png)
 
+### 首次打开时，macOS 提示「未打开」
+
+如果你已经看到「授权访问」页面，可以直接看第 3 步。遇到下图的「Apple 无法验证」提示时，先确认安装包来自本项目的 GitHub 发布页，并确认来源可信、文件完整，再继续操作。[GitHub 发布页](https://github.com/markjizhi/claude-safe-client/releases)
+
+**1. 点「完成」关闭提示。**
+
+![macOS 提示未打开 Claude 安全助手，点「完成」](images/mac-first-open-blocked.png)
+
+**2. 打开「系统设置 → 隐私与安全性」。** 向下滚动到「安全性」，找到「已阻止『Claude 安全助手』以保护 Mac」的提示，点右侧的「仍要打开」。
+
+![在隐私与安全性页面找到 Claude 安全助手，点「仍要打开」](images/mac-first-open-settings.png)
+
+**3. 在确认弹窗里点「仍要打开」。**
+
+![macOS 再次确认是否打开 Claude 安全助手](images/mac-first-open-confirm.png)
+
+**4. 按系统提示完成管理员验证。** 可以使用管理员的触控 ID，或点「使用密码…」，在系统弹窗中输入这台 Mac 的管理员密码。打开 Claude 安全助手后，继续填写授权信息。
+
+![macOS 提示使用触控 ID 或管理员密码完成验证](images/mac-first-open-authenticate.png)
+
+[Apple 支持 · 在 Mac 上安全地打开 App](https://support.apple.com/zh-cn/102445)
+
 ## 3. 填写授权信息
 
 在「授权访问」页面填写你的**姓名、手机号和授权码**，然后点「校验授权」。
